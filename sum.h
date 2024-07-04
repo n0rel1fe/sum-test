@@ -1,7 +1,3 @@
-#include <stdio.h>
+#pragma once
 
-int sum(int a,int b)
-{
-    printf("%d + %d = %d", &a, &b);
-}
-
+int sum(int n);
